@@ -1,0 +1,79 @@
+.product {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.product__column {
+    min-width: 50%;
+    margin-bottom: 44px;
+}
+
+.product__column--right {
+   flex-grow: 1;
+   flex-basis: 469px;
+}
+
+.product__name {
+    margin: 0;
+    margin-top: -14px;
+    padding: 0;
+    margin-bottom: 26px;
+    font-family: 'Arial', sans-serif;
+    font-size: 3.75rem;
+    line-height: 1.2em;
+    font-weight: 400;
+    text-shadow: 0 1 0 rgba(0, 0, 0, 0.3);
+    color: rgb(255, 255, 255);
+}
+
+.product__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.product__item {
+    position: relative;
+    padding-left: 40px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.8em;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 1 0 rgba(0, 0, 0, 0.3);
+}
+
+.product__item::before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    width: 25px;
+    height: 20px;
+    background-image: url('../../img/icons/simpleLandingSprite.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.product__imageWrapper {
+    max-width: 469px;
+    height: 214px;
+    margin-left: auto;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.product__image {
+    width: 100%;
+}
+
+@media (max-width: 960px) {
+    .product__imageWrapper {
+        margin: 0 auto;
+    }
+
+    .product__column {
+        text-align: center;
+    } 
+}
