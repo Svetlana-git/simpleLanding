@@ -1,0 +1,110 @@
+.rates {
+    padding-top: 45px;
+    padding-bottom: 24px;
+}
+
+.rates__title {
+    margin: 0;
+    margin-bottom: 27px;
+    padding: 0;
+    padding-left: 4px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.875rem;
+    line-height: 1.2em;
+    font-weight: 400;
+    color: rgb(68, 81, 97);
+}
+
+.rates__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: flex-start;
+    max-width: 990px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    list-style: none;
+}
+
+.rate {
+    max-width: 300px;
+    flex-basis: 300px;
+    margin-bottom: 25px;
+    padding: 2px;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    background-color: rgb(68, 81, 97);
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+.rate__name {
+    margin: 0;
+    margin-bottom: 11px;
+    padding: 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.25em;
+    font-weight: 400;
+}
+
+.rate__cost {
+    margin: 0;
+    margin-bottom: 17px;
+    padding: 13px 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1em;
+    font-weight: 400;
+    color: rgb(68, 81, 97);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.rate__featuresList {
+    margin: 0;
+    margin-bottom: 16px;
+    padding: 0;
+    padding-left: 18px;
+    list-style-position: inside;
+}
+
+.rate__featuresItem {
+    margin-bottom: 1px;
+    font-family: 'Arial', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.rate__button {
+    display: block;
+    max-width: 260px;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Arial', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1em;
+    font-weight: 700;
+    color: rgb(68, 81, 97);
+}
+
+@media (max-width: 930px) {
+    .rates__list {
+        justify-content: space-around;
+        align-items: stretch;
+    }
