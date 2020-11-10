@@ -1,6 +1,7 @@
 @import url("layout/normalize.css");
 @import url("layout/base.css");
 @import url("layout/mainHeader.css");
+@import url("layout/mainFooter.css");
 
 @import url("blocks/product.css");
 @import url("blocks/about.css");
@@ -11,3 +12,4 @@
 @import url("blocks/contacts.css");
 @import url("blocks/sendMessage.css");
 @import url("blocks/socials.css");
+@import url("blocks/copyright.css");
