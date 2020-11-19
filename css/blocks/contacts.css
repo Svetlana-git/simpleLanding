@@ -6,14 +6,7 @@
 }
 
 .contacts__title {
-    margin: 0;
     margin-bottom: 23px;
-    padding: 0;
-    padding-left: 6px;
-    font-family: 'Arial', sans-serif;
-    font-size: 1.875rem;
-    line-height: 1.2em;
-    font-weight: 400;
     color: rgb(255, 255, 255);
     text-align: center;
 }

@@ -19,3 +19,15 @@ body {
 	margin: 0 auto;
 	padding: 0 10px;
 }
+
+.subtitle {
+	margin: 0;
+	padding: 0;
+}
+
+.subtitle--h2 {
+	font-family: 'Arial', sans-serif;
+	font-size: 1.875rem;
+	line-height: 1.2em;
+	font-weight: 400;
+}

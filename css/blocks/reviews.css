@@ -5,14 +5,7 @@
 }
 
 .reviews__title {
-    margin: 0;
     margin-bottom: 27px;
-    padding: 0;
-    padding-left: 6px;
-    font-family: 'Arial', sans-serif;
-    font-size: 1.875rem;
-    line-height: 1.2em;
-    font-weight: 400;
     color: rgb(68, 81, 97);
     text-align: center;
 }

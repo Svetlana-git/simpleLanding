@@ -24,15 +24,11 @@
 }
 
 .about__title {
-    margin: 0;
     margin-bottom: 24px;
     margin-top: -6px;
-    padding: 0;
     padding-left: 5px;
-    font-family: 'Arial', sans-serif;
-    font-size: 1.875rem;
-    font-weight: 400;
     color: rgb(68, 81, 97);
+    line-height: 1em;
 }
 
 .about__text {
