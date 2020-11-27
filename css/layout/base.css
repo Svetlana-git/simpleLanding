@@ -20,6 +20,11 @@ body {
 	padding: 0 10px;
 }
 
+img {
+	width: 100%;
+	height: auto;
+}
+
 .subtitle {
 	margin: 0;
 	padding: 0;
